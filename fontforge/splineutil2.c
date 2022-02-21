@@ -173,7 +173,7 @@ bool RealNear(real a,real b) {
 
     return d>-1e-6 && d<1e-6;
 #else		/* For floats */
-    return d>-1e-5 && d<1e-5
+    return d>-1e-5 && d<1e-5;
 #endif
 }
 
